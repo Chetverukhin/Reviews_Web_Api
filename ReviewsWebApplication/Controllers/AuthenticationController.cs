@@ -9,8 +9,8 @@ using ConfigurationManager = Review.Domain.Services.ConfigurationManager;
 
 namespace ReviewsWebApplication.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class AuthenticationController : ControllerBase
     {
         private readonly ILogger<ReviewController> _logger;
